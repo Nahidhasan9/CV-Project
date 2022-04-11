@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family:sans-serif;
+}
+.div-clear{
+    clear: both;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #dffcfc;
+    margin: 0 auto;
+    padding:20px;
+}
+.footer-container{
+    max-width: 1000px;
+    background-color:#070707b7;
+    margin: 0 auto;
+    padding:20px;
+    text-align: center;
+}
+
+
+.profile-image{
+    width: 100px;
+    height: 95px;
+    border:2px solid white;
+    border-radius: 50%;
+    float:left;
+    
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+.header-contact{
+    float: right;
+}
+.header-contact a{
+    text-decoration: none;
+    color: #11999e;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5{
+    color: #11999e;
+}
+
+hr{
+    border: solid 5px;
+    border-top-color: grey;
+    border-bottom-color:tomato;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.common-hr{
+    border:solid tomato 1px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+    
+}
+.right-div{
+    width: 70%;
+    float: left;
+    margin-bottom: 20px;
+}
+.div1{
+    width: 50%;
+    float:left
+}
+.div2{
+    width: 50%;
+    float:left
+}
+
+.footer-div a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    text-align: center;
+
+}
+.footer-div p{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.footer-div a:hover{
+    background-color: tomato;
+    color: antiquewhite;
+}
